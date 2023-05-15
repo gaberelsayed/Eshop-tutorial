@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
-
+                        
 app.use(cors({
   origin: 'https://eshop-tutorial-cefl.vercel.app',
   credentials: true
